@@ -22,7 +22,8 @@ library(entropyDRW)
      load(entropyDRW.RData)
 
 3. Infer pathway activities for classification
+
 Run the function to obtain pathway expression profiles for further classification
 
-PathwayRWTrain <- getPathwayRWTrain(gNonMetabolic, gMetabolic, mRNA_matrix_training, vertexWeight, vertexTScore)
-PathwayRWTrain
+    PathwayRWTrain <- getPathwayRWTrain(gNonMetabolic, gMetabolic, mRNA_matrix_training, vertexWeight, vertexTScore)
+    PathwayRWTrain
