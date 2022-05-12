@@ -13,10 +13,12 @@ library(entropyDRW)
 2. Load data (Lung cancer dataset) and directed pathway network
 
     a. Read Lung exp data (Gene ID) excel file as matrix
+     
      LungExpData_ID <- as.matrix(read.table(file="GSE10072.txt", sep="", header=T))
      LungExpData_ID
 
     b. Get dataset sample index and KEGG pathways
+     
      load(entropyDRW.RData)
 
 3. Infer pathway activities for classification
