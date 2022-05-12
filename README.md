@@ -9,7 +9,7 @@ Getting started
 
 1. Load entropyDRW package
 
-library(entropyDRW)
+     library(entropyDRW)
 
 2. Load data (Lung cancer dataset) and directed pathway network
 
