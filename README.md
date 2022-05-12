@@ -8,6 +8,7 @@ Dependent packages: Depends: R (>= 3.5), igraph, Matrix, lattice, caret, e1071
 Getting started
 
 1. Load entropyDRW package
+
 library(entropyDRW)
 
 2. Load data (Lung cancer dataset) and directed pathway network
