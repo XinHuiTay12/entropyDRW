@@ -21,6 +21,7 @@ Getting started
      - GSE17856.txt : Liver expression profiles
      
      Try our sample data (Lung cancer dataset) as below
+     
      LungExpData_ID <- as.matrix(read.table(file="GSE10072.txt", sep="", header=T))
      LungExpData_ID
 
