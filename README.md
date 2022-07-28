@@ -11,14 +11,20 @@ Getting started
 
      library(entropyDRW)
 
-2. Load data (Lung cancer dataset) and directed pathway network
+2. Read gene expression dataset and load dataset sample index and directed pathway network
 
-    a. Read Lung exp data (Gene ID) excel file as matrix
+    a. Read gene exp data (Gene ID) excel file as matrix
      
+     There are three gene expression profiles:
+     - GSE10072.txt : Lung expression profiles
+     - GSE13911.txt : Stomach expression profiles
+     - GSE17856.txt : Liver expression profiles
+     
+     Try our sample data (Lung cancer dataset) as below
      LungExpData_ID <- as.matrix(read.table(file="GSE10072.txt", sep="", header=T))
      LungExpData_ID
 
-    b. Get dataset sample index and KEGG pathways
+    b. Get lung cancer dataset sample index and KEGG pathways
      
      load(entropyDRW.RData)
 
