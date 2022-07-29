@@ -1,11 +1,11 @@
 Package: entropyDRW
 Type: Package
-Title: What the Package Does (Title Case)
+Title: e-DRW
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Tay Xin Hui
+Maintainer: Tay Xin Hui <tayxinhui95@gmail.com>
+Description: entropyDRW is an entropy-based pathway activity inference method using directed random walks on graph. It implements entropy as a parameter variable for random walking in a biological network and Entropy Weight Method (EWM) is applied in for pathway activity inference.
+License: 
+Imports: igraph, Matrix, lattice
 Encoding: UTF-8
 LazyData: true
